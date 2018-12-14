@@ -1,0 +1,25 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+# aactr
+
+The goal of aactr is to help clinical trial researchers access the AACT database using only one function.
+
+## Installation
+
+You can install the released version of aactr using...
+
+``` r
+devtools::install_github("jasonbaik94/aactr")
+```
