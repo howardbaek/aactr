@@ -19,8 +19,8 @@
 
 connect_aact <- function(user, password) {
 
-  drv <- dbDriver('PostgreSQL')
-  con <- dbConnect(drv,
+  drv <- DBI::dbDriver('PostgreSQL')
+  con <- DBI::dbConnect(drv,
                    dbname="aact",
                    host="aact-db.ctti-clinicaltrials.org",
                    port=5432,
