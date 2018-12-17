@@ -28,13 +28,3 @@ aact_connect <- function(user, password) {
                    password=password)
 
 }
-
-
-#' @describeIn aact_connect List all the tables in AACT database
-
-aact_list <- function(con) {
-
-  # List tables
-  dbListTables(con)
-
-}

@@ -2,12 +2,9 @@
 % Please edit documentation in R/aact_connect.R
 \name{aact_connect}
 \alias{aact_connect}
-\alias{aact_list}
 \title{Connect to PostgreSQL AACT database}
 \usage{
 aact_connect(user, password)
-
-aact_list(con)
 }
 \arguments{
 \item{user}{a character vector containing username}
@@ -17,11 +14,6 @@ aact_list(con)
 \description{
 According to \href{https://aact.ctti-clinicaltrials.org/r}{AACT Documentation on Using R}, this function allows you to access the PostgreSQL AACT database in the cloud using R without needing to install PostgreSQL on your local machine.
 }
-\section{Functions}{
-\itemize{
-\item \code{aact_list}: List all the tables in AACT database
-}}
-
 \examples{
 \dontrun{
 aact_connect("myid", "mypassword")
