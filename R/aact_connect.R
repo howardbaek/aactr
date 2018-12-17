@@ -12,12 +12,12 @@
 #'
 #' @examples
 #' \dontrun{
-#' connect_act("myid", "mypassword")
+#' aact_connect("myid", "mypassword")
 #' }
 #'
 #' @seealso \url{https://aact.ctti-clinicaltrials.org/points_to_consider}
 
-connect_aact <- function(user, password) {
+aact_connect <- function(user, password) {
 
   drv <- DBI::dbDriver('PostgreSQL')
   con <- DBI::dbConnect(drv,
