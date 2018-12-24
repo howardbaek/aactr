@@ -1,9 +1,12 @@
-#' Connect to PostgreSQL AACT database
+#'Connect to AACT database.
 #'
-#' According to \href{https://aact.ctti-clinicaltrials.org/r}{AACT Documentation on Using R}, this function allows you to access the PostgreSQL AACT database in the cloud using R without needing to install PostgreSQL on your local machine.
+#'According to \href{https://aact.ctti-clinicaltrials.org/r}{this AACT
+#'documentation}, this function allows you to access the PostgreSQL AACT
+#'database in the cloud using R without needing to install PostgreSQL on your
+#'local machine.
 #'
-#'@param user a character vector containing username
-#'@param password a character vector containing password
+#'@param user A character vector containing username.
+#'@param password A character vector containing password.
 
 #' @import RPostgreSQL
 #' @import DBI

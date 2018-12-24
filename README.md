@@ -24,7 +24,8 @@ devtools::install_github("jasonbaik94/aactr")
 Authors
 -------
 
-[Jason Baik](joonwoob@andrew.cmu.edu) [Nick Giangreco](nick.giangreco@gmail.com)
+-   [Jason Baik](joonwoob@andrew.cmu.edu)
+-   [Nick Giangreco](nick.giangreco@gmail.com)
 
 License
 -------
