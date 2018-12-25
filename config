@@ -1,0 +1,5 @@
+dbname: aact
+host: aact-db.ctti-clinicaltrials.org
+port: 5432.0
+user: user
+password: password

@@ -3,3 +3,4 @@
 export(aact_connect)
 import(DBI)
 import(RPostgreSQL)
+import(yaml)

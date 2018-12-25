@@ -7,9 +7,9 @@
 aact_connect(user, password)
 }
 \arguments{
-\item{user}{A character vector containing username.}
+\item{user}{A character vector containing username: \code{config$user}}
 
-\item{password}{A character vector containing password.}
+\item{password}{A character vector containing password: \code{config$password}}
 }
 \description{
 According to \href{https://aact.ctti-clinicaltrials.org/r}{this AACT
@@ -17,9 +17,13 @@ documentation}, this function allows you to access the PostgreSQL AACT
 database in the cloud using R without needing to install PostgreSQL on your
 local machine.
 }
+\details{
+First, create a config yaml file to securely save credentials: \code{yaml::write_yaml(data.frame(user = "USERNAME", password = "PASSWORD"), "config")}
+Then, load config file and save to an object: \code{config <- yaml::yaml.load_file("config")}
+}
 \examples{
 \dontrun{
-aact_connect("myid", "mypassword")
+aact_connect(config$user, config$password)
 }
 
 }
