@@ -20,7 +20,6 @@ The goal of aactr is to help clinical trial researchers access the AACT database
 
 * `aact_connect`
 
-* `aact_list`
 
 ## Installation
 

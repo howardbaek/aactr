@@ -10,8 +10,6 @@ database by providing many wrapper functions.
 
   - `aact_connect`
 
-  - `aact_list`
-
 ## Installation
 
 You can install the released version of aactr using…
