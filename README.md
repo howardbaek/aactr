@@ -1,33 +1,30 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-Goal
-----
 
-The goal of aactr is to help clinical trial researchers access the AACT database by providing many wrapper functions.
+## Goal
 
-Functions
----------
+The goal of aactr is to help clinical trial researchers access the AACT
+database by providing many wrapper functions.
 
--   `aact_connect`
+## Functions
 
--   `aact_list`
+  - `aact_connect`
 
-Installation
-------------
+  - `aact_list`
 
-You can install the released version of aactr using...
+## Installation
+
+You can install the released version of aactr using…
 
 ``` r
-devtools::install_github("jasonbaik94/aactr")
+devtools::install_github("howardbaek/aactr")
 ```
 
-Authors
--------
+## Authors
 
--   Jason Baik (<joonwoob@andrew.cmu.edu>)
--   Nick Giangreco (<nick.giangreco@gmail.com>)
+  - Howard Baek (<howardba@uw.edu>)
+  - Nick Giangreco (<nick.giangreco@gmail.com>)
 
-License
--------
+## License
 
 The MIT License (MIT)

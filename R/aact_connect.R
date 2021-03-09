@@ -15,7 +15,7 @@
 #' @import DBI
 #' @import yaml
 #' @export
-#' @author Jason Baik <joonwoob@andrew.cmu.edu>
+#' @author Howard Baek <howardba@uw.edu>
 #'
 #' @examples
 #' \dontrun{

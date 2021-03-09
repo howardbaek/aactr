@@ -2,16 +2,16 @@ Package: aactr
 Type: Package
 Title: Connection To The AACT Database
 Version: 0.1.0
-Author: Jason Baik
-Maintainer: Jason Baik <joonwoob@andrew.cmu.edu>
+Author: Howard Baek
+Maintainer: Howard Baek <howardba@uw.edu>
 Description: AACT is a publicly available relational database that contains all information
     (protocol and result data elements) about every study registered in ClinicalTrials.gov. 
     Content is downloaded from ClinicalTrials.gov daily and loaded into AACT. 
     As a cloud-hosted PostgreSQL database, AACT can be directly accessed via standard query & analytic tools. 
     The aactr package serves to allow users to easily access the PostgreSQL database.
 License: MIT
-URL: https://github.com/jasonbaik94/aactr
-BugReports: https://github.com/jasonbaik94/aactr/issues
+URL: 
+BugReports: 
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
