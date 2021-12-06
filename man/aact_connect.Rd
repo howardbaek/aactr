@@ -31,5 +31,5 @@ aact_connect(config$user, config$password)
 \url{https://aact.ctti-clinicaltrials.org/points_to_consider}
 }
 \author{
-Jason Baik <joonwoob@andrew.cmu.edu>
+Howard Baek <howardba@uw.edu>
 }
