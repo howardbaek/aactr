@@ -26,6 +26,7 @@ The goal of aactr is to help clinical trial researchers access the AACT database
 You can install the released version of aactr using...
 
 ``` r
+# install.packages("devtools")
 devtools::install_github("howardbaek/aactr")
 ```
 

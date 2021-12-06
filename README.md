@@ -8,20 +8,21 @@ database by providing many wrapper functions.
 
 ## Functions
 
-  - `aact_connect`
+-   `aact_connect`
 
 ## Installation
 
 You can install the released version of aactr using…
 
 ``` r
+# install.packages("devtools")
 devtools::install_github("howardbaek/aactr")
 ```
 
 ## Authors
 
-  - Howard Baek (<howardba@uw.edu>)
-  - Nick Giangreco (<nick.giangreco@gmail.com>)
+-   Howard Baek (<howardba@uw.edu>)
+-   Nick Giangreco (<nick.giangreco@gmail.com>)
 
 ## License
 
