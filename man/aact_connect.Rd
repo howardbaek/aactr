@@ -12,8 +12,8 @@ aact_connect(user, password)
 \item{password}{A character vector containing password: \code{config$password}}
 }
 \description{
-According to \href{https://aact.ctti-clinicaltrials.org/r}{this AACT
-documentation}, this function allows you to access the PostgreSQL AACT
+According to \href{https://aact.ctti-clinicaltrials.org/r}{
+Connect to AACT using R}, this function allows you to access the PostgreSQL AACT
 database in the cloud using R without needing to install PostgreSQL on your
 local machine.
 }
