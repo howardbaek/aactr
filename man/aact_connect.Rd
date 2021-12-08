@@ -2,33 +2,41 @@
 % Please edit documentation in R/aact_connect.R
 \name{aact_connect}
 \alias{aact_connect}
-\title{Connect to AACT database.}
+\title{Establish a connection to AACT database}
 \usage{
 aact_connect(user, password)
 }
 \arguments{
-\item{user}{A character vector containing username: \code{config$user}}
+\item{user}{A character vector containing username of database account}
 
-\item{password}{A character vector containing password: \code{config$password}}
+\item{password}{A character vector containing password of database account}
 }
 \description{
-According to \href{https://aact.ctti-clinicaltrials.org/r}{
-Connect to AACT using R}, this function allows you to access the PostgreSQL AACT
+This function allows you to access the PostgreSQL AACT
 database in the cloud using R without needing to install PostgreSQL on your
 local machine.
 }
 \details{
-First, create a config yaml file to securely save credentials: \code{yaml::write_yaml(data.frame(user = "USERNAME", password = "PASSWORD"), "config")}
-Then, load config file and save to an object: \code{config <- yaml::yaml.load_file("config")}
+To get started, please create a database account at this link: \cr
+\url{https://aact.ctti-clinicaltrials.org/users/sign_up}. \cr
+\cr
+To securely save credentials, create a config yaml file: \code{yaml::write_yaml(data.frame(user = "USERNAME", password = "PASSWORD"), "config").}
+Then, load the config file and save it to an object: \code{config <- yaml::yaml.load_file("config")}.
+Now, you can safely access your database credentials with \code{config$user} and \code{config$password}. \cr
+
+Alternatively, you can directly enter your username and password as arguments.
 }
 \examples{
 \dontrun{
-aact_connect(config$user, config$password)
+con <- aact_connect(config$user, config$password)
 }
 
 }
 \seealso{
-\url{https://aact.ctti-clinicaltrials.org/points_to_consider}
+\itemize{
+  \item \url{https://aact.ctti-clinicaltrials.org/r}
+  \item \url{https://aact.ctti-clinicaltrials.org/points_to_consider}
+}
 }
 \author{
 Howard Baek <howardba@uw.edu>
